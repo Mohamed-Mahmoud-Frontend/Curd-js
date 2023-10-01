@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curds</title>
+    <link rel="stylesheet" href="style.css" />
+<link rel="shortcut icon" href="image/favicon-standard.png" type="image/x-icon">
+</head>
+<!-- -- -->
+<body >
+    <div class="crud">
+        <div class="text">
+            <span></span>
+            <h2>curds</h2>
+            <p>Product management system</p>
+        </div>
+        <div class="fromm">
+            <form>
+                <div>
+                    <input type="text" id="title" placeholder="Title" />
+                </div>
+                <div class="price">
+                    <input onkeyup="getTotal()" type="number" id="price" placeholder="Price"/>
+                    <input onkeyup="getTotal()" type="number" id="taxes" placeholder="Taxes"/>
+                    <input onkeyup="getTotal()" type="number" id="ads" placeholder="Ads"/>
+                    <input onkeyup="getTotal()" type="number" id="discount" placeholder="Discount"/>
+                    <small id="total"></small>
+                </div>
+                <div>
+                    <input type="number" placeholder="Count" id="count" />
+                    <input type="text" placeholder="Catougry" id="Catougry" />
+                    <button id="btn">Create</button>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Search" id="search" />
+                </div>
+                <div class="btn2search">
+                <button id="t-search search-btn">Search By Title</button>
+                <button id="c-search search-btn">Search By Catogry</button>
+            </div>
+            </form>
+        </div>
+    
+    <div class="tab-tr">
+    <table class="tablee-th">
+        <div id="deleteAll"></div>
+        <thead>
+            <th>id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>Count</th>
+            <th>Catougry</th>
+            <th>update</th>
+            <th>delete</th>
+        </thead>
+                <tbody id="tbody">  </tbody>
+    </table>
+                    <!-- <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+<td><button id="update">update</button></td>
+<td><button id="delete">delete</button></td> -->
+                
+<form autocomplete="">
+    <!-- <input type="password" name="" id=""> -->
+</form>
+
+        
+</div> 
+<div>
+    <script src="main.js"></script>
+</div>
+</div>
+
+
+
+    </body>
+
+</html>

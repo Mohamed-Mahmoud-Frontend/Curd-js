@@ -1,0 +1,107 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #181841;
+        color: #fff;
+        font-family: system-ui;
+        width: 100%;
+        overflow: hidden;
+}
+    .crud{
+            width: 80%;
+            margin: auto;
+    }
+    .text {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 32px;
+    text-transform: uppercase;
+    font-style: italic;
+    }
+    form input{ 
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 5px;
+        margin: 3px 4px;
+        width: 100%;
+        height: 40px;
+    font-size:20px ;    
+    /* text-transform: uppercase; */
+        background-color: #303075;
+        border: none;
+        outline: none;
+        transition:ease 0.5;
+        color: #fff;
+        border-radius: 5px;
+    }
+    form input:focus{
+    transform: scale(1.1);
+    background-color: #161620;
+    }
+    .price input{
+        width: 23%;
+
+    }
+    span::before
+    {
+        content: "mohamed mahmoud front end developer";  
+    
+    }
+
+    .price  {
+     
+    display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    small{
+        padding: 5px 3px;
+        margin: 8px 4px;
+        /* text-transform: uppercase; */
+    font: 1em sans-serif;
+    /* background-color: brown; */
+    }
+    button{
+        width: 100%;
+        background-color:#9e5add ;
+        height: 40px;
+        transition:ease 0.5;
+        color: #fff;
+        border-radius: 5px;
+
+    }
+    button:hover{
+        background-color:#3b0969 ;
+    transform: scale(1.1);
+
+    }
+    .btn2search {
+        display: flex;
+        justify-content: space-between;
+    border-radius: 5px ;
+    border:none;
+    outline: none;}
+    .btn2search button{
+        width: 45%;
+    }
+    table{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        text-transform: uppercase;
+
+    }
+    #total{
+        background-color: #4d0e0e;
+    }
+    #total::before{
+        content: 'Total:';
+    }
+
